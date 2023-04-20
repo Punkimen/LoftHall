@@ -1,0 +1,247 @@
+$anmTrs: cubic-bezier(0.16, 0.01, 0.77, 1);
+// $anmTrs: cubic-bezier(.19,1,.22,1);
+
+$timing: 0.8s;
+
+@function ptr($size) {
+	@return #{$size / 16px}rem;
+}
+
+.fadeGrm {
+	@for $i from 1 through 50 {
+		span:nth-child(#{$i}) {
+			animation: minfadeUp 0.7s $anmTrs forwards;
+			animation-delay: $i * 0.1s;
+		}
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fade {
+	animation: fade $timing $anmTrs forwards;
+}
+
+.fadeUp {
+	animation: fadeUp $timing $anmTrs forwards;
+}
+
+@keyframes fadeUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(70px), 0) skewY(3deg);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.minfadeUp {
+	animation: minfadeUp $timing $anmTrs forwards;
+}
+
+@keyframes minfadeUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(15px), 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes micfadeUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(5px), 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeDown {
+	animation: fadeDown $timing $anmTrs forwards;
+}
+
+@keyframes fadeDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(-70px), 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fastDown {
+	animation: fastDown $timing * 2 ease-in-out forwards;
+}
+
+@keyframes fastDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(-200px), 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, ptr(0px), 0);
+	}
+}
+
+@keyframes minfadeDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(-10px), 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeLeft {
+	animation: fadeLeft $timing $anmTrs forwards;
+}
+.minfadeLeft {
+	animation: minfadeLeft $timing $anmTrs forwards;
+}
+
+@keyframes fadeLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(ptr(-70px), 0, 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeRight {
+	animation: fadeRight $timing $anmTrs forwards;
+}
+
+@keyframes fadeRight {
+	from {
+		opacity: 0;
+		transform: translate3d(ptr(70px), 0, 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes minfadeRight {
+	from {
+		opacity: 0;
+		transform: translate3d(ptr(-35px), 0, 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes minfadeLeft {
+	from {
+		opacity: 0;
+		transform: translate3d(ptr(35px), 0, 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.fadeList {
+	@for $i from 1 through 20 {
+		li:nth-child(#{$i}) {
+			animation: fadeUp $timing $anmTrs forwards;
+			animation-delay: $i * 0.2s;
+		}
+	}
+}
+.fadeList-min {
+	@for $i from 1 through 20 {
+		li:nth-child(#{$i}) {
+			animation: minfadeUp $timing $anmTrs forwards;
+			animation-delay: $i * 0.2s;
+		}
+	}
+}
+.fadeSpanList {
+	overflow: hidden;
+	height: fit-content;
+	@for $i from 1 through 50 {
+		span:nth-child(#{$i}) {
+			animation: spanUp 0.65s $anmTrs forwards;
+		}
+	}
+}
+@keyframes spanUp {
+	from {
+		opacity: 0;
+		transform: translate3d(0, ptr(35px), 0);
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes inRotate {
+	from {
+		opacity: 0;
+		transform: rotate(0deg);
+	}
+	50% {
+		opacity: 0;
+		transform: rotate(0deg);
+	}
+	to {
+		opacity: 1;
+		transform: rotate(-45deg);
+	}
+}
+
+@keyframes trsTop {
+	from {
+		transform: translate3d(0, ptr(15px), 0);
+		opacity: 0;
+	}
+	to {
+		transform: translate3d(0, 0, 0);
+		opacity: 1;
+	}
+}
+
+@keyframes clipDown {
+	from {
+		opacity: 0;
+		clip-path: inset(0 0 100%);
+	}
+	50% {
+		opacity: 1;
+	}
+	to {
+		opacity: 1;
+		clip-path: inset(0 0 0%);
+	}
+}
+
+@keyframes clipUp {
+	from {
+		opacity: 0;
+		clip-path: inset(0 100% 0);
+	}
+	50% {
+		opacity: 1;
+	}
+	to {
+		opacity: 1;
+		clip-path: inset(0 0 0);
+	}
+}

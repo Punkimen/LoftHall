@@ -1,0 +1,28 @@
+@import "./fonts.scss";
+@import "./animations.scss";
+$size-base: 16px;
+
+@function ptr($size) {
+	@return #{$size / $size-base}rem;
+}
+
+$back-color: #000000;
+$text-color: #A1A1A1;
+$sub-color: #EFD6C4;
+$trs: .3s $anmTrs;
+
+$main-font: "Piazzolla", sans-serif;
+$h-font: "Sverdlovsk", sans-serif;
+$t-font: "SF Pro Display", sans-serif;
+
+
+html {
+  font-size: 0.8333333333vw;;
+}
+
+@media (max-width: 900px){
+    html {
+        font-size: 4.267vw;
+    }
+}
+$mobile-width: 1024px;

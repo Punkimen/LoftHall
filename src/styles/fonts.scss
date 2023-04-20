@@ -1,0 +1,243 @@
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Thin"), local("SFProDisplay-Thin"),
+		url("/static/fonts/SFProDisplay-Thin.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Thin.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Light"), local("SFProDisplay-Light"),
+		url("/static/fonts/SFProDisplay-Light.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Light.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Medium"), local("SFProDisplay-Medium"),
+		url("/static/fonts/SFProDisplay-Medium.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Medium.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Regular"), local("SFProDisplay-Regular"),
+		url("/static/fonts/SFProDisplay-Regular.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Regular.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Semibold"), local("SFProDisplay-Semibold"),
+		url("/static/fonts/SFProDisplay-Semibold.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Semibold.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Bold"), local("SFProDisplay-Bold"),
+		url("/static/fonts/SFProDisplay-Bold.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Bold.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Thin"), local("SFProDisplay-Thin"),
+		url("/static/fonts/SFProDisplay-Thin.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Thin.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Light"), local("SFProDisplay-Light"),
+		url("/static/fonts/SFProDisplay-Light.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Light.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SFProDisplay Medium"), local("SFProDisplay-Medium"),
+		url("/static/fonts/SFProDisplay-Medium.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Medium.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Regular"), local("SFProDisplay-Regular"),
+		url("/static/fonts/SFProDisplay-Regular.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Regular.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Semibold"), local("SFProDisplay-Semibold"),
+		url("/static/fonts/SFProDisplay-Semibold.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Semibold.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: local("SF Pro Display Bold"), local("SFProDisplay-Bold"),
+		url("/static/fonts/SFProDisplay-Bold.woff2") format("woff2"),
+		url("/static/fonts/SFProDisplay-Bold.woff") format("woff"),
+		url("/static/fonts/SFProDisplay-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Sverdlovsk";
+	src: local("Sverdlovsk"), local("Sverdlovsk"),
+		url("/static/fonts/Sverdlovsk.woff2") format("woff2"),
+		url("/static/fonts/Sverdlovsk.woff") format("woff"),
+		url("/static/fonts/Sverdlovsk.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+
+
+
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Light"), local("Piazzolla-Light"),
+		url("/static/fonts/Piazzolla-Light.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Light.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Medium"), local("Piazzolla-Medium"),
+		url("/static/fonts/Piazzolla-Medium.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Medium.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Regular"), local("Piazzolla-Regular"),
+		url("/static/fonts/Piazzolla-Regular.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Regular.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Semibold"), local("Piazzolla-Semibold"),
+		url("/static/fonts/Piazzolla-Semibold.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Semibold.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Bold"), local("Piazzolla-Bold"),
+		url("/static/fonts/Piazzolla-Bold.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Bold.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Thin"), local("Piazzolla-Thin"),
+		url("/static/fonts/Piazzolla-Thin.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Thin.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Thin.ttf") format("truetype");
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Light"), local("Piazzolla-Light"),
+		url("/static/fonts/Piazzolla-Light.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Light.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Light.ttf") format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Medium"), local("Piazzolla-Medium"),
+		url("/static/fonts/Piazzolla-Medium.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Medium.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Medium.ttf") format("truetype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Regular"), local("Piazzolla-Regular"),
+		url("/static/fonts/Piazzolla-Regular.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Regular.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Semibold"), local("Piazzolla-Semibold"),
+		url("/static/fonts/Piazzolla-Semibold.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Semibold.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Piazzolla";
+	src: local("Piazzolla Bold"), local("Piazzolla-Bold"),
+		url("/static/fonts/Piazzolla-Bold.woff2") format("woff2"),
+		url("/static/fonts/Piazzolla-Bold.woff") format("woff"),
+		url("/static/fonts/Piazzolla-Bold.ttf") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+}
